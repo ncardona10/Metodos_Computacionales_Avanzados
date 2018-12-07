@@ -1,0 +1,4 @@
+xvst.png yvst.png zvst.png: MCHamiltoniano.ipynb
+	python3 MCHamiltoniano.ipynb
+clean:
+	rm *.png 
