@@ -1,0 +1,25 @@
+adveccionSerial.c: In function 'int main(int, const char**)':
+adveccionSerial.c:44:21: error: array must be initialized with a brace-enclosed initializer
+   double t_max[4] = 1.0;
+                     ^
+adveccionSerial.c:63:21: error: cannot convert 'double*' to 'double' for argument '1' to 'void lax(double, double, double*)'
+     lax(t_max, dt, u);
+                     ^
+/var/spool/torque/mom_priv/jobs/490392.clustermaster.uniandes.edu.co.SC: line 15: ./adveccionSerial.x: No such file or directory
+adveccionParallel.c: In function 'int main(int, const char**)':
+adveccionParallel.c:44:21: error: array must be initialized with a brace-enclosed initializer
+   double t_max[4] = 1.0;
+                     ^
+adveccionParallel.c:65:21: error: cannot convert 'double*' to 'double' for argument '1' to 'void lax(double, double, double*)'
+     lax(t_max, dt, u);
+                     ^
+/var/spool/torque/mom_priv/jobs/490392.clustermaster.uniandes.edu.co.SC: line 18: ./adveccionParallel.x: No such file or directory
+/lustre/apps/anaconda/3/lib/python3.5/site-packages/numpy/lib/npyio.py:893: UserWarning: loadtxt: Empty input file: "adveccionSerial.txt"
+  warnings.warn('loadtxt: Empty input file: "%s"' % fname)
+Traceback (most recent call last):
+  File "grafica.py", line 9, in <module>
+    ySerial = dataSerial[0,:]
+IndexError: too many indices for array
+
+
+(hpcstats) Getting modules

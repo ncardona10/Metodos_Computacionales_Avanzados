@@ -1,0 +1,8 @@
+In file included from /opt/openmpi/include/mpi.h:253:0,
+                 from sample.c:7:
+/opt/openmpi/include/mpi_portable_platform.h:374:34: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+              _STRINGIFY(__GNUC__)"."_STRINGIFY(__GNUC_MINOR__)"."_STRINGIFY(__GNUC_PATCHLEVEL__)
+                                  ^
+/opt/openmpi/include/mpi_portable_platform.h:374:63: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]
+              _STRINGIFY(__GNUC__)"."_STRINGIFY(__GNUC_MINOR__)"."_STRINGIFY(__GNUC_PATCHLEVEL__)
+                                                               ^

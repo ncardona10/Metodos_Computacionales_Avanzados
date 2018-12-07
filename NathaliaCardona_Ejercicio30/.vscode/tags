@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Lax	../t.py	/^def Lax(u, t_max=0.45, delta_t = 0.015, delta_x=5.0):$/;"	kind:function	line:17
+delta_x	../t.py	/^    delta_x = 0.05$/;"	kind:variable	line:31
+flux	../t.py	/^def flux(u):$/;"	kind:function	line:14
+initial	../t.py	/^def initial(delta_x=0.05):$/;"	kind:function	line:4
+t.py	../t.py	1;"	kind:file	line:1
+t_max_values	../t.py	/^t_max_values = [0.0, 0.5, 1.0, 2.0]$/;"	kind:variable	line:29
+u_final	../t.py	/^    u_final = Lax(u_init, t_max=t_max,delta_t=0.5*delta_x, delta_x=delta_x)$/;"	kind:variable	line:33
